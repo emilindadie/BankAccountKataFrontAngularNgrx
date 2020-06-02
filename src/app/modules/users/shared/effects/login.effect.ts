@@ -34,7 +34,10 @@ export class LoginEffect {
       );
 
       logoutUser$ = createEffect(() => this.actions$.pipe(
-        ofType('LOGOUT_USER'), tap(() => localStorage.removeItem('currentUser'))
+        ofType('LOGOUT_USER'), tap(() => {
+          localStorage.removeItem('currentUser')
+          localStorage.removeItem('accessToken')
+        })
         ), {dispatch: false}
       );
 }

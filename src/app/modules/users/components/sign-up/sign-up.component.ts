@@ -3,7 +3,6 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { Observable } from 'rxjs';
 import { Store, select } from '@ngrx/store';
 import { takeWhile } from 'rxjs/operators';
-import { ISignUpUserState } from '../../shared/states/sign-up-user.state.i';
 import { hasSignUpErrorMessageSelector, hasSuccessSignUpSelector } from '../../shared/selectors/signup.selector';
 import { ISignUpFormState } from '../../shared/states/sign-up-form.state.i';
 

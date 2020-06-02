@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Actions, createEffect, ofType } from '@ngrx/effects';
-import { map, mergeMap, catchError, tap } from 'rxjs/operators';
+import { map, mergeMap, catchError } from 'rxjs/operators';
 import { of } from 'rxjs';
 import { UserService } from 'src/app/modules/users/shared/services/user.service';
 import { IValidSignUpFormAction } from '../actions/valid-signup-form.action.i';

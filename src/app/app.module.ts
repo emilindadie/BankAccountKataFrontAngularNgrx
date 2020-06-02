@@ -10,7 +10,6 @@ import { environment } from 'src/environments/environment';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { UserService } from './modules/users/shared/services/user.service';
 import { LoginUserReducer } from './modules/shared/reducers/login-user.reducer';
-import { LoginFormReducer } from './modules/shared/reducers/login-form.reducer';
 import { MyTokenInterceptor } from './intercepter/token.interceptor';
 
 @NgModule({

@@ -38,7 +38,6 @@ export class OperationsComponent implements OnInit {
 
   ngOnInit(): void {
      this.accountId = this.route.snapshot.paramMap.get('id');
-     this.dataSource.sort = this.sort;
     this.store.dispatch({type: 'LOAD_OPERATIONS', payload: {
       accountId : this.accountId, startDate: undefined, endDate: undefined, localDate: new Date()
       }
@@ -47,6 +46,7 @@ export class OperationsComponent implements OnInit {
       data => {
         this.dataSource.data = data; 
         this.dataSource.paginator = this.paginator;
+        this.dataSource.sort = this.sort;
       }
     );
   }

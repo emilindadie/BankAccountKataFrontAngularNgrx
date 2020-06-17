@@ -23,8 +23,13 @@ Think of your personal bank account experience When in doubt, go for the simples
 **I want to** see the history (operation, date, amount, balance)  of my operations  
 
 
-# Api Dependance
+# Api Dependance with swagger ui
+[BankAccountApiNestJS](https://github.com/emilindadie/BankAccountApiNestJS)
+
+
+# Other Api Dependance
 [BankAccountkataApi](https://github.com/emilindadie/BankAccountKataApi)
+
 
 # To know
 This project are not complete, all api calls are comment and replaced by mock data.

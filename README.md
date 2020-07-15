@@ -39,7 +39,7 @@ For access to the complete version (React version) you have to clone the reposit
 
 [BankAccountkataFront](https://github.com/emilindadie/BankAccountKataFront)
 
-# Run api
+# Run app
 ```sh
 $ npm run start
 ```
